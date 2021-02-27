@@ -4,17 +4,17 @@ namespace stack
 {
     class StackUnrolled<T> : Stack<T>
     {
-        class Note
+        class Node
         {
             public T[] array;
-            public Note next;
+            public Node next;
             public int p;
-            public Note(int i, Note n)
+            public Node(int i, Node n)
             {
                 array = new T[i];
                 p = -1;
                 next = n;
-                Console.WriteLine("New Note Created");
+                Console.WriteLine("New PNode Created");
             }
             public int State()
             {
@@ -32,15 +32,15 @@ namespace stack
             }
         }
         public override int Count { get => n*10 + top.p + 1; }
-        Note top;
+        Node top;
         int n;
         public StackUnrolled()
         {
-            top = new Note(10, top);
+            top = new Node(10, top);
         }
         public override void Push(T v)
         {
-            if (top.State() == 1) { top = new Note(10, top); n++; }
+            if (top.State() == 1) { top = new Node(10, top); n++; }
             top.Put(v);
         }
 

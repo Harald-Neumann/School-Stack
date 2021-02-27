@@ -8,23 +8,23 @@ namespace stack
 
     class StackList<T> : Stack<T>
     {
-        class Note
+        class Node
         {
             public T value;
-            public Note next;
+            public Node next;
 
-            public Note(T value, Note next)
+            public Node(T value, Node next)
             {
                 /// Erstellt eine neue Liste
                 this.value = value;
                 this.next = next;
             }
-            public Note(T value)
+            public Node(T value)
             {
                 this.value = value;
             }
         }
-        Note top;
+        Node top;
         public StackList()
         {
             top = null;
@@ -45,7 +45,7 @@ namespace stack
 
         public override void Push(T v)
         {
-            Note tmp = new Note(v, top);
+            Node tmp = new Node(v, top);
             top = tmp;
             Count++;
         }

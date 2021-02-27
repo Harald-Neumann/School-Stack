@@ -3,24 +3,24 @@ using System.Collections;
 
 namespace stack
 {
-    class Note
+    class PNode
     {
         public int value;
-        public Note next;
+        public PNode next;
 
-        public Note(int value, Note next)
+        public PNode(int value, PNode next)
         {
             this.value = value;
             this.next = next;
         }
-        public Note(int value)
+        public PNode(int value)
         {
             this.value = value;
         }
     }
     class PresList
     {
-        Note top;
+        PNode top;
         public PresList()
         {
             top = null;
@@ -28,13 +28,13 @@ namespace stack
 
         public PresList(int i)
         {
-            top = new Note(i, null);
+            top = new PNode(i, null);
         }
 
 
         public void Push(int v)
         {
-            Note tmp = new Note(v, top);
+            PNode tmp = new PNode(v, top);
             top = tmp;
         }
 
