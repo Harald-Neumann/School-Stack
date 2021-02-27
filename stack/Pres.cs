@@ -3,23 +3,23 @@ using System.Collections;
 
 namespace stack
 {
+    class Note
+    {
+        public int value;
+        public Note next;
+
+        public Note(int value, Note next)
+        {
+            this.value = value;
+            this.next = next;
+        }
+        public Note(int value)
+        {
+            this.value = value;
+        }
+    }
     class PresList
     {
-        class Note
-        {
-            public int value;
-            public Note next;
-
-            public Note(int value, Note next)
-            {
-                this.value = value;
-                this.next = next;
-            }
-            public Note(int value)
-            {
-                this.value = value;
-            }
-        }
         Note top;
         public PresList()
         {
