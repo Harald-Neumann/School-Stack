@@ -3,6 +3,14 @@ using System.Collections;
 
 namespace stack
 {
+    /**<summary>
+     *Node class used in PresList.  
+     *</summary>
+     * 
+     * The Node was renamed to PNode to make it more distinguished from other (nested) Nodeclasse.
+     * 
+     * For Informations about the Presentation see <see cref="PresList"/>.
+     */
     class PNode
     {
         public int value;
@@ -18,6 +26,19 @@ namespace stack
             this.value = value;
         }
     }
+    /**<summary>
+     *Simplified version of the StackList class for use in the Presentation 
+     *</summary>
+     *
+     *List of changes:
+     *<list type="bullet">
+     *<item>
+     *TODO
+     *</item>
+     *</list>
+     *
+     *The Presentation is not available to the public and only meant for use in school.
+     */
     class PresList
     {
         PNode top;
