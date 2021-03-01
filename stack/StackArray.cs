@@ -3,6 +3,10 @@ using System.Collections;
 
 namespace stack
 {
+    /**<summary>
+     *Stack implementation based on a dynamic array
+     *</summary>
+     */
     class StackArray<T> : Stack<T>
     {
         public T[] array;

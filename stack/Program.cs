@@ -2,6 +2,10 @@
 
 namespace stack
 {
+    /**<summary>
+     * Used for testing/debuging
+     * </summary>
+     */
     class Program
     {
         static void Main(string[] args)
@@ -29,6 +33,3 @@ namespace stack
 
     }
 }
-//Unhandled exception.System.Exception: Stack is Empty
-//   at stack.StackArray`1.Pop() in C:\Users\Neumann\Documents\stack\stack\StackArray.cs:line 34
-//   at stack.Program.Main(String[] args) in C:\Users\Neumann\Documents\stack\stack\Program.cs:line 11

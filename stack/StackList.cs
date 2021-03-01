@@ -5,7 +5,10 @@ using System.Collections;
 
 namespace stack
 {
-
+    /**<summary>
+     *Stack implementation based on a singly linked list
+     *</summary>
+     */
     class StackList<T> : Stack<T>
     {
         class Node

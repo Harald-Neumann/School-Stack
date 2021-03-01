@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace stack
+    /**<summary>
+     *abstract class used instead of an interface 
+     *</summary>
+     */
 {
     abstract class Stack<T>
     {

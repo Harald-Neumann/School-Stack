@@ -2,6 +2,10 @@
 
 namespace stack
 {
+    /**<summary>
+     *Stack implementation based on an unrolled list 
+     *</summary>
+     */
     class StackUnrolled<T> : Stack<T>
     {
         class Node
