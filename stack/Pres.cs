@@ -4,61 +4,99 @@ using System.Collections;
 namespace stack
 {
     /**<summary>
-     *Node class used in PresList.  
-     *</summary>
+     * Node class used in PresList.  
+     * </summary>
      * 
+     * <remarks>
      * The Node was renamed to PNode to make it more distinguished from other (nested) Nodeclasse.
      * 
      * For Informations about the Presentation see <see cref="PresList"/>.
+     * </remarks>
      */
     class PNode
     {
-        public int value;
-        public PNode next;
+        public int value; //
+        public PNode next; // refecents to the next Node.
 
         public PNode(int value, PNode next)
         {
             this.value = value;
             this.next = next;
         }
-        public PNode(int value)
-        {
-            this.value = value;
-        }
     }
     /**<summary>
-     *Simplified version of the StackList class for use in the Presentation 
-     *</summary>
+     * Simplified version of the StackList class for use in the Presentation.
+     * </summary>
+     * <remarks>
+     * List of changes:
+     * <list type="bullet">
+     * <item>
+     * TODO
+     * </item>
+     * </list>
      *
-     *List of changes:
-     *<list type="bullet">
-     *<item>
-     *TODO
-     *</item>
-     *</list>
-     *
-     *The Presentation is not available to the public and only meant for use in school.
+     * The Presentation is not available to the public and only meant for use in school.
+     * </remarks>
      */
     class PresList
     {
         PNode top;
+
+
+        /**<summary>
+        * Creates an empty stack 
+        * </summary>
+        */
         public PresList()
         {
             top = null;
         }
-
+        /**<summary>
+         * Creates a stack and pushes i onto it 
+         * </summary>
+         * <remarks>
+         * <param name="i">int which will be pushed onto the stack</param>
+         * </remarks>
+         */
         public PresList(int i)
         {
             top = new PNode(i, null);
         }
 
 
+        /**<summary>
+        * Pushes the value onto the stack
+        * </summary>
+        * <remarks>
+        * <param name="v">Takes a value to push it to the top of the stack</param>
+        * </remarks>
+        */
         public void Push(int v)
         {
-            PNode tmp = new PNode(v, top);
-            top = tmp;
+            top = new PNode(v, top);
         }
 
+
+        /**<summary>
+         * Returns True if stack is empty.
+         * </summary>
+         */
+        public bool IsEmpty()
+        {
+            return top == null; //When the stack is empty the reference does not point to a Node.
+        }
+
+
+        /**<summary>
+         * Returns the value of the top and removes it.
+         * </summary>
+         * <remarks>
+         * <returns>
+         * The top value.
+         * </returns>
+         * <exception cref="Exception">Throws an exception if the stack is empty</exception>
+         * </remarks>
+         */
         public int Pop()
         {
             if (IsEmpty()) throw new Exception("Stack is empty");
@@ -67,13 +105,20 @@ namespace stack
             return tmp;
         }
 
-        public bool IsEmpty()
-        {
-            return top == null;
-        }
 
+        /**<summary>
+         * Returns the value of the top (but does not removes it).
+         * </summary>
+         * <remarks>
+         * <returns>
+         * The top value.
+         * </returns>
+         * <exception cref="Exception">Throws an exception if the stack is empty</exception>
+         * </remarks>
+         */
         public int Peek()
         {
+            if (IsEmpty()) throw new Exception("Stack is empty");
             return top.value;
         }
     }
