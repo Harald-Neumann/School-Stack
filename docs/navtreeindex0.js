@@ -1,19 +1,5 @@
 var NAVTREEINDEX0 =
 {
-"_8_n_e_t_core_app_00_version_0av3_81_8_assembly_attributes_8cs.html":[2,0,0,0,0,0,0],
-"_8_n_e_t_core_app_00_version_0av3_81_8_assembly_attributes_8cs_source.html":[2,0,0,0,0,0,0],
-"_pres_8cs.html":[2,0,0,1],
-"_pres_8cs_source.html":[2,0,0,1],
-"_program_8cs.html":[2,0,0,2],
-"_program_8cs_source.html":[2,0,0,2],
-"_stack_8cs.html":[2,0,0,3],
-"_stack_8cs_source.html":[2,0,0,3],
-"_stack_array_8cs.html":[2,0,0,4],
-"_stack_array_8cs_source.html":[2,0,0,4],
-"_stack_list_8cs.html":[2,0,0,5],
-"_stack_list_8cs_source.html":[2,0,0,5],
-"_stack_unrolled_8cs.html":[2,0,0,6],
-"_stack_unrolled_8cs_source.html":[2,0,0,6],
 "annotated.html":[1,0],
 "classes.html":[1,1],
 "classstack_1_1_p_node.html":[1,0,0,0],
@@ -60,11 +46,6 @@ var NAVTREEINDEX0 =
 "classstack_1_1_stack_unrolled.html#aa307711e2d96b5c7ea245507f659fd28":[1,0,0,6,4],
 "classstack_1_1_stack_unrolled.html#aad98c7285a196b45d9138e1d5ac95b9d":[1,0,0,6,5],
 "classstack_1_1_stack_unrolled.html#aee1ac19f69503507860dd88c2dbb7513":[1,0,0,6,2],
-"dir_55beff1173be11735e7bf9ffa8bf66c6.html":[2,0,0,0],
-"dir_9158740d6ab1ff1e48adbe60f9a16f94.html":[2,0,0,0,0],
-"dir_9c06dcf018a45e938fb599f83f198634.html":[2,0,0,0,0,0],
-"dir_ab51a11a65415835ab0b627ec1ba1885.html":[2,0,0],
-"files.html":[2,0],
 "functions.html":[1,3,0],
 "functions_func.html":[1,3,1],
 "functions_prop.html":[1,3,3],
@@ -73,7 +54,5 @@ var NAVTREEINDEX0 =
 "index.html":[],
 "namespaces.html":[0,0],
 "namespacestack.html":[0,0,0],
-"pages.html":[],
-"stack_8_assembly_info_8cs.html":[2,0,0,0,0,0,1],
-"stack_8_assembly_info_8cs_source.html":[2,0,0,0,0,0,1]
+"pages.html":[]
 };

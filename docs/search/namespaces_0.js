@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['stack_32',['stack',['../namespacestack.html',1,'']]]
+  ['stack_24',['stack',['../namespacestack.html',1,'']]]
 ];

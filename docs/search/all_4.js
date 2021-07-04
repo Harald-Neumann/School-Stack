@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['max_4',['Max',['../classstack_1_1_stack_array.html#a26031b442b6ded9ac1ded4a21e32a97d',1,'stack::StackArray']]]
+  ['next_4',['next',['../classstack_1_1_p_node.html#aebe3ee7f16f9d386d72e52cc28383e49',1,'stack::PNode']]]
 ];

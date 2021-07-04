@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_2enetcoreapp_2cversion_3dv3_2e1_2eassemblyattributes_2ecs_0',['.NETCoreApp,Version=v3.1.AssemblyAttributes.cs',['../_8_n_e_t_core_app_00_version_0av3_81_8_assembly_attributes_8cs.html',1,'']]]
+  ['array_0',['array',['../classstack_1_1_stack_array.html#a8e8eacbed415afdd1d18d393a6179657',1,'stack::StackArray']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['array_50',['array',['../classstack_1_1_stack_array.html#a8e8eacbed415afdd1d18d393a6179657',1,'stack::StackArray']]]
+  ['array_34',['array',['../classstack_1_1_stack_array.html#a8e8eacbed415afdd1d18d393a6179657',1,'stack::StackArray']]]
 ];
