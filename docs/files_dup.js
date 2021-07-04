@@ -1,4 +1,4 @@
 var files_dup =
 [
-    [ "School-Stack", "dir_fdd9f217a118a03788dd648eaa67454e.html", "dir_fdd9f217a118a03788dd648eaa67454e" ]
+    [ "stack", "dir_ab51a11a65415835ab0b627ec1ba1885.html", "dir_ab51a11a65415835ab0b627ec1ba1885" ]
 ];

@@ -24,8 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "School Stack", "index.html", [
-    [ "School-Stack", "md__school__stack__r_e_a_d_m_e.html", null ],
+  [ "Stack School", "index.html", [
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ]
     ] ],

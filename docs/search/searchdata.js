@@ -1,13 +1,12 @@
 var indexSectionsWithContent =
 {
-  0: ".acimnprsv",
+  0: ".acimnpsv",
   1: "ps",
   2: "s",
-  3: ".prs",
+  3: ".ps",
   4: "ips",
   5: "anv",
-  6: "cm",
-  7: "s"
+  6: "cm"
 };
 
 var indexSectionNames =
@@ -18,8 +17,7 @@ var indexSectionNames =
   3: "files",
   4: "functions",
   5: "variables",
-  6: "properties",
-  7: "pages"
+  6: "properties"
 };
 
 var indexSectionLabels =
@@ -30,7 +28,6 @@ var indexSectionLabels =
   3: "Files",
   4: "Functions",
   5: "Variables",
-  6: "Properties",
-  7: "Pages"
+  6: "Properties"
 };
 

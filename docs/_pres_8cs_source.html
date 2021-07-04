@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>School Stack: School-Stack/stack/Pres.cs Source File</title>
+<title>Stack School: stack/Pres.cs Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">School Stack
+   <div id="projectname">Stack School
    </div>
   </td>
  </tr>
@@ -92,76 +92,77 @@ $(document).ready(function(){initNavTree('_pres_8cs_source.html',''); initResiza
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classstack_1_1_p_node.html">   16</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classstack_1_1_p_node.html">PNode</a></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classstack_1_1_p_node.html#a4e085a4142e8fa0c6ad3b5ed7cb21b7c">   18</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classstack_1_1_p_node.html#a4e085a4142e8fa0c6ad3b5ed7cb21b7c">value</a>; <span class="comment">//</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classstack_1_1_p_node.html#aebe3ee7f16f9d386d72e52cc28383e49">   19</a></span>&#160;        <span class="keyword">public</span> <a class="code" href="classstack_1_1_p_node.html">PNode</a> <a class="code" href="classstack_1_1_p_node.html#aebe3ee7f16f9d386d72e52cc28383e49">next</a>; <span class="comment">// refecents to the next Node.</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classstack_1_1_p_node.html#a4e085a4142e8fa0c6ad3b5ed7cb21b7c">   19</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classstack_1_1_p_node.html#a4e085a4142e8fa0c6ad3b5ed7cb21b7c">value</a>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classstack_1_1_p_node.html#a9d6109136a8e5fbd5e7a951ca055b9fb">   21</a></span>&#160;        <span class="keyword">public</span> <a class="code" href="classstack_1_1_p_node.html#a9d6109136a8e5fbd5e7a951ca055b9fb">PNode</a>(<span class="keywordtype">int</span> <a class="code" href="classstack_1_1_p_node.html#a4e085a4142e8fa0c6ad3b5ed7cb21b7c">value</a>, <a class="code" href="classstack_1_1_p_node.html">PNode</a> <a class="code" href="classstack_1_1_p_node.html#aebe3ee7f16f9d386d72e52cc28383e49">next</a>)</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            this.value = <a class="code" href="classstack_1_1_p_node.html#a4e085a4142e8fa0c6ad3b5ed7cb21b7c">value</a>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            this.next = <a class="code" href="classstack_1_1_p_node.html#aebe3ee7f16f9d386d72e52cc28383e49">next</a>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classstack_1_1_pres_list.html">   41</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classstack_1_1_pres_list.html">PresList</a></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="classstack_1_1_p_node.html">PNode</a> top;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classstack_1_1_pres_list.html#a5b038cf844c0bf9b1a340b272e095b07">   50</a></span>&#160;        <span class="keyword">public</span> <a class="code" href="classstack_1_1_pres_list.html#a5b038cf844c0bf9b1a340b272e095b07">PresList</a>()</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        {</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            top = <span class="keyword">null</span>;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="classstack_1_1_pres_list.html#a4b319a0281cb19058ef1c5a0cb71f84b">   61</a></span>&#160;        <span class="keyword">public</span> <a class="code" href="classstack_1_1_pres_list.html#a4b319a0281cb19058ef1c5a0cb71f84b">PresList</a>(<span class="keywordtype">int</span> i)</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            top = <span class="keyword">new</span> <a class="code" href="classstack_1_1_p_node.html">PNode</a>(i, <span class="keyword">null</span>);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        }</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="classstack_1_1_pres_list.html#ad2becf566cc5fd7fab148cb05fbb9708">   74</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classstack_1_1_pres_list.html#ad2becf566cc5fd7fab148cb05fbb9708">Push</a>(<span class="keywordtype">int</span> v)</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            top = <span class="keyword">new</span> <a class="code" href="classstack_1_1_p_node.html">PNode</a>(v, top);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        }</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="classstack_1_1_pres_list.html#a2dfe54e9ac567860a136fc616d55ff1c">   84</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">bool</span> <a class="code" href="classstack_1_1_pres_list.html#a2dfe54e9ac567860a136fc616d55ff1c">IsEmpty</a>()</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        {</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keywordflow">return</span> top == <span class="keyword">null</span>; <span class="comment">//When the stack is empty the reference does not point to a Node.</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        }</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="classstack_1_1_pres_list.html#a360107c9c470ca86d6f17fc848e77aec">  100</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classstack_1_1_pres_list.html#a360107c9c470ca86d6f17fc848e77aec">Pop</a>()</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        {</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classstack_1_1_pres_list.html#a2dfe54e9ac567860a136fc616d55ff1c">IsEmpty</a>()) <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(<span class="stringliteral">&quot;Stack is empty&quot;</span>);</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="keywordtype">int</span> tmp = top.<a class="code" href="classstack_1_1_p_node.html#a4e085a4142e8fa0c6ad3b5ed7cb21b7c">value</a>;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            top = top.<a class="code" href="classstack_1_1_p_node.html#aebe3ee7f16f9d386d72e52cc28383e49">next</a>;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <span class="keywordflow">return</span> tmp;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        }</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
-<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="classstack_1_1_pres_list.html#ada5ff11f7b913bdfe10dbd3c962cc0b2">  119</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classstack_1_1_pres_list.html#ada5ff11f7b913bdfe10dbd3c962cc0b2">Peek</a>()</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        {</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classstack_1_1_pres_list.html#a2dfe54e9ac567860a136fc616d55ff1c">IsEmpty</a>()) <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(<span class="stringliteral">&quot;Stack is empty&quot;</span>);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            <span class="keywordflow">return</span> top.<a class="code" href="classstack_1_1_p_node.html#a4e085a4142e8fa0c6ad3b5ed7cb21b7c">value</a>;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        }</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    }</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classstack_1_1_p_node.html#aebe3ee7f16f9d386d72e52cc28383e49">   22</a></span>&#160;        <span class="keyword">public</span> <a class="code" href="classstack_1_1_p_node.html">PNode</a> <a class="code" href="classstack_1_1_p_node.html#aebe3ee7f16f9d386d72e52cc28383e49">next</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classstack_1_1_p_node.html#a9d6109136a8e5fbd5e7a951ca055b9fb">   24</a></span>&#160;        <span class="keyword">public</span> <a class="code" href="classstack_1_1_p_node.html#a9d6109136a8e5fbd5e7a951ca055b9fb">PNode</a>(<span class="keywordtype">int</span> <a class="code" href="classstack_1_1_p_node.html#a4e085a4142e8fa0c6ad3b5ed7cb21b7c">value</a>, <a class="code" href="classstack_1_1_p_node.html">PNode</a> <a class="code" href="classstack_1_1_p_node.html#aebe3ee7f16f9d386d72e52cc28383e49">next</a>)</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            this.value = <a class="code" href="classstack_1_1_p_node.html#a4e085a4142e8fa0c6ad3b5ed7cb21b7c">value</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            this.next = <a class="code" href="classstack_1_1_p_node.html#aebe3ee7f16f9d386d72e52cc28383e49">next</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classstack_1_1_pres_list.html">   44</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classstack_1_1_pres_list.html">PresList</a></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="classstack_1_1_p_node.html">PNode</a> top;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classstack_1_1_pres_list.html#a5b038cf844c0bf9b1a340b272e095b07">   53</a></span>&#160;        <span class="keyword">public</span> <a class="code" href="classstack_1_1_pres_list.html#a5b038cf844c0bf9b1a340b272e095b07">PresList</a>()</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            top = <span class="keyword">null</span>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classstack_1_1_pres_list.html#a4b319a0281cb19058ef1c5a0cb71f84b">   64</a></span>&#160;        <span class="keyword">public</span> <a class="code" href="classstack_1_1_pres_list.html#a4b319a0281cb19058ef1c5a0cb71f84b">PresList</a>(<span class="keywordtype">int</span> i)</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            top = <span class="keyword">new</span> <a class="code" href="classstack_1_1_p_node.html">PNode</a>(i, <span class="keyword">null</span>);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="classstack_1_1_pres_list.html#ad2becf566cc5fd7fab148cb05fbb9708">   77</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classstack_1_1_pres_list.html#ad2becf566cc5fd7fab148cb05fbb9708">Push</a>(<span class="keywordtype">int</span> v)</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            top = <span class="keyword">new</span> <a class="code" href="classstack_1_1_p_node.html">PNode</a>(v, top);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="classstack_1_1_pres_list.html#a2dfe54e9ac567860a136fc616d55ff1c">   87</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">bool</span> <a class="code" href="classstack_1_1_pres_list.html#a2dfe54e9ac567860a136fc616d55ff1c">IsEmpty</a>()</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keywordflow">return</span> top == <span class="keyword">null</span>; <span class="comment">//When the stack is empty the reference does not point to a Node.</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="classstack_1_1_pres_list.html#a360107c9c470ca86d6f17fc848e77aec">  103</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classstack_1_1_pres_list.html#a360107c9c470ca86d6f17fc848e77aec">Pop</a>()</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classstack_1_1_pres_list.html#a2dfe54e9ac567860a136fc616d55ff1c">IsEmpty</a>()) <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(<span class="stringliteral">&quot;Stack is empty&quot;</span>);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            <span class="keywordtype">int</span> tmp = top.<a class="code" href="classstack_1_1_p_node.html#a4e085a4142e8fa0c6ad3b5ed7cb21b7c">value</a>;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            top = top.<a class="code" href="classstack_1_1_p_node.html#aebe3ee7f16f9d386d72e52cc28383e49">next</a>;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <span class="keywordflow">return</span> tmp;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="classstack_1_1_pres_list.html#ada5ff11f7b913bdfe10dbd3c962cc0b2">  122</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classstack_1_1_pres_list.html#ada5ff11f7b913bdfe10dbd3c962cc0b2">Peek</a>()</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classstack_1_1_pres_list.html#a2dfe54e9ac567860a136fc616d55ff1c">IsEmpty</a>()) <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(<span class="stringliteral">&quot;Stack is empty&quot;</span>);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <span class="keywordflow">return</span> top.<a class="code" href="classstack_1_1_p_node.html#a4e085a4142e8fa0c6ad3b5ed7cb21b7c">value</a>;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div>
 <div class="ttc" id="aclassstack_1_1_p_node_html"><div class="ttname"><a href="classstack_1_1_p_node.html">stack.PNode</a></div><div class="ttdoc">Node class used in PresList.</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00016">Pres.cs:17</a></div></div>
-<div class="ttc" id="aclassstack_1_1_p_node_html_a4e085a4142e8fa0c6ad3b5ed7cb21b7c"><div class="ttname"><a href="classstack_1_1_p_node.html#a4e085a4142e8fa0c6ad3b5ed7cb21b7c">stack.PNode.value</a></div><div class="ttdeci">int value</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00018">Pres.cs:18</a></div></div>
-<div class="ttc" id="aclassstack_1_1_p_node_html_a9d6109136a8e5fbd5e7a951ca055b9fb"><div class="ttname"><a href="classstack_1_1_p_node.html#a9d6109136a8e5fbd5e7a951ca055b9fb">stack.PNode.PNode</a></div><div class="ttdeci">PNode(int value, PNode next)</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00021">Pres.cs:21</a></div></div>
-<div class="ttc" id="aclassstack_1_1_p_node_html_aebe3ee7f16f9d386d72e52cc28383e49"><div class="ttname"><a href="classstack_1_1_p_node.html#aebe3ee7f16f9d386d72e52cc28383e49">stack.PNode.next</a></div><div class="ttdeci">PNode next</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00019">Pres.cs:19</a></div></div>
-<div class="ttc" id="aclassstack_1_1_pres_list_html"><div class="ttname"><a href="classstack_1_1_pres_list.html">stack.PresList</a></div><div class="ttdoc">Simplified version of the StackList class for use in the Presentation.</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00041">Pres.cs:42</a></div></div>
-<div class="ttc" id="aclassstack_1_1_pres_list_html_a2dfe54e9ac567860a136fc616d55ff1c"><div class="ttname"><a href="classstack_1_1_pres_list.html#a2dfe54e9ac567860a136fc616d55ff1c">stack.PresList.IsEmpty</a></div><div class="ttdeci">bool IsEmpty()</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00084">Pres.cs:84</a></div></div>
-<div class="ttc" id="aclassstack_1_1_pres_list_html_a360107c9c470ca86d6f17fc848e77aec"><div class="ttname"><a href="classstack_1_1_pres_list.html#a360107c9c470ca86d6f17fc848e77aec">stack.PresList.Pop</a></div><div class="ttdeci">int Pop()</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00100">Pres.cs:100</a></div></div>
-<div class="ttc" id="aclassstack_1_1_pres_list_html_a4b319a0281cb19058ef1c5a0cb71f84b"><div class="ttname"><a href="classstack_1_1_pres_list.html#a4b319a0281cb19058ef1c5a0cb71f84b">stack.PresList.PresList</a></div><div class="ttdeci">PresList(int i)</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00061">Pres.cs:61</a></div></div>
-<div class="ttc" id="aclassstack_1_1_pres_list_html_a5b038cf844c0bf9b1a340b272e095b07"><div class="ttname"><a href="classstack_1_1_pres_list.html#a5b038cf844c0bf9b1a340b272e095b07">stack.PresList.PresList</a></div><div class="ttdeci">PresList()</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00050">Pres.cs:50</a></div></div>
-<div class="ttc" id="aclassstack_1_1_pres_list_html_ad2becf566cc5fd7fab148cb05fbb9708"><div class="ttname"><a href="classstack_1_1_pres_list.html#ad2becf566cc5fd7fab148cb05fbb9708">stack.PresList.Push</a></div><div class="ttdeci">void Push(int v)</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00074">Pres.cs:74</a></div></div>
-<div class="ttc" id="aclassstack_1_1_pres_list_html_ada5ff11f7b913bdfe10dbd3c962cc0b2"><div class="ttname"><a href="classstack_1_1_pres_list.html#ada5ff11f7b913bdfe10dbd3c962cc0b2">stack.PresList.Peek</a></div><div class="ttdeci">int Peek()</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00119">Pres.cs:119</a></div></div>
+<div class="ttc" id="aclassstack_1_1_p_node_html_a4e085a4142e8fa0c6ad3b5ed7cb21b7c"><div class="ttname"><a href="classstack_1_1_p_node.html#a4e085a4142e8fa0c6ad3b5ed7cb21b7c">stack.PNode.value</a></div><div class="ttdeci">int value</div><div class="ttdoc">The Value of the Node.</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00019">Pres.cs:19</a></div></div>
+<div class="ttc" id="aclassstack_1_1_p_node_html_a9d6109136a8e5fbd5e7a951ca055b9fb"><div class="ttname"><a href="classstack_1_1_p_node.html#a9d6109136a8e5fbd5e7a951ca055b9fb">stack.PNode.PNode</a></div><div class="ttdeci">PNode(int value, PNode next)</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00024">Pres.cs:24</a></div></div>
+<div class="ttc" id="aclassstack_1_1_p_node_html_aebe3ee7f16f9d386d72e52cc28383e49"><div class="ttname"><a href="classstack_1_1_p_node.html#aebe3ee7f16f9d386d72e52cc28383e49">stack.PNode.next</a></div><div class="ttdeci">PNode next</div><div class="ttdoc">A reference to the next Node.</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00022">Pres.cs:22</a></div></div>
+<div class="ttc" id="aclassstack_1_1_pres_list_html"><div class="ttname"><a href="classstack_1_1_pres_list.html">stack.PresList</a></div><div class="ttdoc">Simplified version of the StackList class for use in the Presentation.</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00044">Pres.cs:45</a></div></div>
+<div class="ttc" id="aclassstack_1_1_pres_list_html_a2dfe54e9ac567860a136fc616d55ff1c"><div class="ttname"><a href="classstack_1_1_pres_list.html#a2dfe54e9ac567860a136fc616d55ff1c">stack.PresList.IsEmpty</a></div><div class="ttdeci">bool IsEmpty()</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00087">Pres.cs:87</a></div></div>
+<div class="ttc" id="aclassstack_1_1_pres_list_html_a360107c9c470ca86d6f17fc848e77aec"><div class="ttname"><a href="classstack_1_1_pres_list.html#a360107c9c470ca86d6f17fc848e77aec">stack.PresList.Pop</a></div><div class="ttdeci">int Pop()</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00103">Pres.cs:103</a></div></div>
+<div class="ttc" id="aclassstack_1_1_pres_list_html_a4b319a0281cb19058ef1c5a0cb71f84b"><div class="ttname"><a href="classstack_1_1_pres_list.html#a4b319a0281cb19058ef1c5a0cb71f84b">stack.PresList.PresList</a></div><div class="ttdeci">PresList(int i)</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00064">Pres.cs:64</a></div></div>
+<div class="ttc" id="aclassstack_1_1_pres_list_html_a5b038cf844c0bf9b1a340b272e095b07"><div class="ttname"><a href="classstack_1_1_pres_list.html#a5b038cf844c0bf9b1a340b272e095b07">stack.PresList.PresList</a></div><div class="ttdeci">PresList()</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00053">Pres.cs:53</a></div></div>
+<div class="ttc" id="aclassstack_1_1_pres_list_html_ad2becf566cc5fd7fab148cb05fbb9708"><div class="ttname"><a href="classstack_1_1_pres_list.html#ad2becf566cc5fd7fab148cb05fbb9708">stack.PresList.Push</a></div><div class="ttdeci">void Push(int v)</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00077">Pres.cs:77</a></div></div>
+<div class="ttc" id="aclassstack_1_1_pres_list_html_ada5ff11f7b913bdfe10dbd3c962cc0b2"><div class="ttname"><a href="classstack_1_1_pres_list.html#ada5ff11f7b913bdfe10dbd3c962cc0b2">stack.PresList.Peek</a></div><div class="ttdeci">int Peek()</div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00122">Pres.cs:122</a></div></div>
 <div class="ttc" id="anamespacestack_html"><div class="ttname"><a href="namespacestack.html">stack</a></div><div class="ttdef"><b>Definition:</b> <a href="_pres_8cs_source.html#l00004">Pres.cs:5</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_fdd9f217a118a03788dd648eaa67454e.html">School-Stack</a></li><li class="navelem"><a class="el" href="dir_319db457f19b1fc28126cf9e337ecfc9.html">stack</a></li><li class="navelem"><a class="el" href="_pres_8cs.html">Pres.cs</a></li>
+    <li class="navelem"><a class="el" href="dir_ab51a11a65415835ab0b627ec1ba1885.html">stack</a></li><li class="navelem"><a class="el" href="_pres_8cs.html">Pres.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

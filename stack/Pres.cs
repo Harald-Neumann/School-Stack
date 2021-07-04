@@ -15,8 +15,13 @@ namespace stack
      */
     class PNode
     {
-        public int value; //
-        public PNode next; // refecents to the next Node.
+        /// The Value of the Node
+        public int value;
+
+        /// A reference to the next Node 
+        public PNode next;
+
+
 
         public PNode(int value, PNode next)
         {
