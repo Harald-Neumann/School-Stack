@@ -5,3 +5,6 @@ Just a strait upload using Githubs VS19 Integration
 
 stack/Pres.cs contains the Version used in the presentation.
 The other .cs files in stack/ contain different implementations
+
+
+Docs: https://harald-neumann.github.io/School-Stack
